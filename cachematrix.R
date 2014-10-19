@@ -16,7 +16,7 @@ makeVector <- function(x = numeric()) {
 #cacheSolve checks first whether the matrix's inverse is calculated or not,if it
 # is calculated,it returns inverse else it calculates its inverse and sets the 
 # inverse i.e calls setinverse
-# solve function directly gives the inverse of a matri
+# solve function directly gives the inverse of a matrix
 cacheSolve <- function(x, ...) {
 m <- matrix()
 m <- x$getinverse()
